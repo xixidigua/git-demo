@@ -9,4 +9,8 @@ public class IndexController  {
     public String hello(){
         return "hello world";
     }
+    @RequestMapping("/world")
+    public String world(){
+        return "hello 宜达互联";
+    }
 }
